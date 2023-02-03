@@ -5,4 +5,4 @@ A cat image appears at the top of the screen and "meows" when clicked.
 To move the image, you can press "Control(Command)+Alt+P" to make the image draggable/undraggable.
 
 ## Installation
-Just download and execute the setup .exe file from Releases.
+Just download and execute the setup .exe file from [Releases](https://github.com/Chen1Plus/floating-cat/releases).
