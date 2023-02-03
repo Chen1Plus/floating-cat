@@ -1,0 +1,12 @@
+body {
+  -webkit-app-region: no-drag;
+  user-select: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#the_picture {
+  width: 150px;
+  height: 150px;
+}
