@@ -1,5 +1,5 @@
 # floating-cat
-A cat image will show on the top of screen, which will "meow" when clicked.
+A cat image appears at the top of the screen and "meows" when clicked.
 
 ## Usage
-To move the picture, you can press "Control(Command)+Alt+P" to make the picture draggable/undraggable.
+To move the image, you can press "Control(Command)+Alt+P" to make the image draggable/undraggable.
