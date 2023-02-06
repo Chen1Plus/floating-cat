@@ -21,7 +21,7 @@ const createWindow = () => {
     frame: false,
     transparent: true,
     autoHideMenuBar: true,
-    // resizable: false,
+    resizable: false,
   });
 
   mainWindow.setAlwaysOnTop(true, "screen-saver");
