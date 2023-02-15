@@ -29,9 +29,15 @@ const createWindow = () => {
 
   mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
 
-  globalShortcut.register("CommandOrControl+Alt+P", () => {
-    mainWindow.webContents.send("pin_picture");
-  });
+  if (is_mac) {
+    globalShortcut.register("Command+Option+P", () => {
+      mainWindow.webContents.send("pin_picture");
+    });
+  } else {
+    globalShortcut.register("Control+Alt+P", () => {
+      mainWindow.webContents.send("pin_picture");
+    });
+  }
 };
 
 app.on("ready", () => {
